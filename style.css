@@ -27,6 +27,17 @@ h3 {
       font-family: 'Prompt', sans-serif;
     }
 
+    footer {
+    font-family: 'Prompt';
+    text-align: center;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 1pt;
+    float: right;
+    color: white;
+    }
+
     section {
         position: relative;
         display: flex;
@@ -160,7 +171,7 @@ h3 {
 
 
       .active {
-      background-color: #4a4a4a;
+      background-color: #111;
       }
 
       li:last-child {
