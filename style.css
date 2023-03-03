@@ -1,0 +1,155 @@
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 75px;
+    }
+
+    p {
+    color: white;
+    text-align: center;
+    }
+
+    body {
+      background-color: #060d17;
+      margin: 0;
+      color: white;
+      font-family: 'Prompt', sans-serif;
+    }
+
+    section {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+    text-align: center;
+    }
+
+
+    .spacer {
+        aspect-ratio: 1080/230;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .layer1 {
+        background-image: url('assets/layer1.svg');
+    }
+    .layer2 {
+        background-image: url('assets/layer2.svg');
+    }
+    .layer3 {
+        background-image: url('assets/layer3.svg');
+    }
+
+    .layer4 {
+        background-image: url('assets/layer4.svg');
+    }
+
+    .flip {
+        transform: rotate(180deg);
+    }
+
+    .slogan {
+        font-size: 25px;
+        color: white;
+        text-align: center;
+    }
+
+    .downloadslogan {
+        font-size: 25px;
+        color: white;
+        text-align: center;
+    }
+
+    .button {
+        background-color: #ffffff;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        width: 250px;
+    }
+
+    .button1 {
+        background-color: white;
+        color: black;
+      }
+
+      .wave {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+
+    .wave svg {
+        position: relative;
+        display: block;
+        width: calc(108% + 1.3px);
+        height: 189px;
+    }
+
+    .wave .shape-fill {
+        fill: #022F9B;
+    }
+
+    .red {
+        background-color: #dd3f31;
+    }
+
+
+    ul {
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      li {
+        float: left;
+          border-right: 1px solid #737874;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+
+        padding: 20px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #111;
+      }
+
+
+      img {
+      text-align: center;
+      }
+
+
+      .active {
+      background-color: #4a4a4a;
+      }
+
+      li:last-child {
+        border-right: none;
+      }
