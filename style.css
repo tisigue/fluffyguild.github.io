@@ -4,14 +4,25 @@ h1 {
     font-size: 75px;
     }
 
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    }
+
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    }
+
     p {
     color: white;
     text-align: center;
     }
 
     body {
-      background-color: #060d17;
-      margin: 0;
+       background-image: url(https://i.imgur.com/R8E2dJo.png);
       color: white;
       font-family: 'Prompt', sans-serif;
     }
@@ -110,7 +121,6 @@ h1 {
         background-color: #dd3f31;
     }
 
-
     ul {
         position: -webkit-sticky; /* Safari */
         position: sticky;
@@ -119,12 +129,15 @@ h1 {
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: #333;
+        background: transparent;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.7);
+        backdrop-filter: blur(10px);
       }
 
       li {
         float: left;
-          border-right: 1px solid #737874;
+        text-align: center;
       }
 
       li a {
